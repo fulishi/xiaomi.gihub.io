@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function showD(elementID){
+            var element=document.getElementById(elementID);
+            element.style.display="block";
+        }
+
+        function hideD(elementID){
+            var element=document.getElementById(elementID);
+            element.style.display="none";
+        }
+    </script>
+    <link href="css/购物车未登录样式.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="font-awesome-4.7.0%20(1)/font-awesome-4.7.0/css/font-awesome.css" type="text/css">
+</head>
+<body>
+<!--大容器  开始-->
+<div class="box">
+    <!--顶部盒子 开始-->
+    <div class="a1">
+        <div class="cantered">
+            <a href="虾米.html"><img src="imag/zhuce/mi.png"></a>
+            <h2>我的购物车</h2>
+            <div class="dl">
+                <a href="登录页面.html">登录</a>
+                <span>丨</span>
+                <a href="注册页面.html">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="xt"></div>
+    <!--顶部盒子结束-->
+    <div class="mid">
+        <div class="b1" >
+            <div class="b2">
+                <div class="text1"></div>
+                <div class="text2">
+                    <h2>您的购物车还是空的！</h2>
+                    <p>登录后将显示您之前加入的商品</p>
+                    <div class="bq"><a href="登录页面.html">立即登录</a></div>
+                    <div class="bq1"><a href="#">马上去购物</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!--底部共用模块开始-->
+        <div class="footer">
+            <div class="canteredd">
+                <div class="one">
+                    <li id="ll"><a href="#"><p class="fa fa-wrench"></p>预约维修服务</a></li>
+                    <li><a href="#"><p class="fa fa-rotate-left"></p>7天无理由退货</a></li>
+                    <li><a href="#"><p class="fa fa-rotate-right"></p>15天免费换货</a></li>
+                    <li><a href="#"><p class="fa fa-gift"></p>满99元包邮</a></li>
+                    <li><a href="#"><p class="fa fa-map-marker"></p>520余家售后网点</a></li>
+                </div>
+                <div class="two">
+                    <dl>
+                        <dt><a>帮助中心</a></dt>
+                        <dd><a href="#">账户管理</a></dd>
+                        <dd><a href="#">购物指南</a></dd>
+                        <dd><a href="#">订单操作</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a>服务支持
+
+
+                            </a></dt>
+                        <dd><a  href="#">售后政策</a></dd>
+                        <dd><a  href="#">自助服务</a></dd>
+                        <dd><a  href="#">相关下载</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a>线下门店
+
+
+                            </a></dt>
+                        <dd><a  href="#">小米之家</a></dd>
+                        <dd><a  href="#">服务网点</a></dd>
+                        <dd><a  href="#">授权体验店</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a>关于小米
+
+
+
+                            </a></dt>
+                        <dd><a  href="#">了解小米</a></dd>
+                        <dd><a  href="#">加入小米</a></dd>
+                        <dd><a  href="#">投资者关系</a></dd>
+                        <dd><a  href="#">廉洁举报</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a>关注我们
+
+
+                            </a></dt>
+                        <dd><a  href="#">新浪微博</a></dd>
+                        <dd><a  href="#">官方微信</a></dd>
+                        <dd><a  href="#">联系我们</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a>特色服务
+
+
+                            </a></dt>
+                        <dd><a  href="#">F 码通道</a></dd>
+                        <dd><a  href="#">礼物码</a></dd>
+                        <dd><a  href="#">防伪 查询</a></dd>
+                    </dl>
+
+                    <div class="Right">
+                        <p id="ph">400-100-5678</p>
+                        <p>8:00-18:00（仅收市话费）</p>
+                        <a  href="#">人工客服</a>
+                        <div class="follw">
+                            <p>关注小米：</p>
+                            <div class="ttt">
+                                <div class="b1"   onmousemove="showD('a11')" onmouseout="hideD('a22')">
+                                    <img  src="imag/wb@2x.png" id="a11" >
+                                    <img src="imag/wb.png" id="a22">
+                                </div>
+                                <div class="b11" >
+                                    <img src="imag/wx.png" id="b111" onmousemove="showD('b222')" onmouseout="hideD('b111')">
+                                    <img src="imag/wx@2x.png" id="b222" onmouseout="hideD('b111')"onmousemove="showD('b222')">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="bottm">
+        <div class="cantereddd">
+            <div class="logo"><img src="imag/zhuce/mi.png"></div>
+            <p>
+                <a href="#">小米商城</a>
+                <span>|</span>
+                <a href="#">MIUI</a>
+                <span>|</span>
+                <a href="#">米家</a>
+                <span>|</span>
+                <a href="#">米聊</a>
+                <span>|</span>
+                <a href="#">多看</a>
+                <span></span>
+                <a href="#">游戏</a>
+                <span>|</span>
+                <a href="#">路由器</a>
+                <span>|</span>
+                <a href="#">米粉卡</a>
+                <span>|</span>
+                <a href="#">政企服务</a>
+                <span>|</span>
+                <a href="#">小米天猫店</a>
+                <span>|</span>
+                <a href="#">小米集团隐私政策</a>
+                <span>|</span>
+                <a href="#">小米商城隐私政策</a>
+                <span>|</span>
+                <a href="#">小米商城用户协议</a>
+                <span>|</span>
+                <a href="#">问题反馈</a>
+            </p>
+            <p id="db">© mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2020]0276-042号</br>
+                （京）网械平台备字（2018）第00005号 互联网药品信息服务资格证 (京) -非经营性-2014-0090 营业执照 医疗器械公告</br>
+                增值电信业务许可证  网络食品经营备案（京）【2018】WLSPJYBAHF-12   食品经营许可证</br>
+                违法和不良信息举报电话：171-5104-4404 知识产权侵权投诉 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+            <div class="gg">
+                <img src="imag/truste.png" id="tup"><img src="imag/v-logo-2.png"><img src="imag/v-logo-1.png"><img src="imag/v-logo-3.png"><img src="imag/ba10428a4f9495ac310fd0b5e0cf8370.png">
+            </div>
+
+            <div class="tx"><img src="imag/slogan2020.png"></div>
+        </div>
+    </div>
+        <!--底部共用模块  结束-->
+
+    <div></div>
+
+</div>
+<!--大容器  结束-->
+</body>
+</html>

@@ -1,0 +1,504 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+body{
+    background-color: #f9f9f9;
+}
+.y1{
+    width: 100%;
+    height: 50px;
+    background-color: #f9f9f9;
+    padding-top: 50px;
+}
+.cantbox{
+
+    width: 960px;
+    height: 100%;
+}
+.cantbox img{
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    line-height: 31px;
+    border: 0 none;
+    vertical-align: middle;
+}
+.cantbox span{
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    line-height: 31px;
+    margin: 0;
+    padding: 0;
+    color: #ff6700;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.cantbox a{
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    line-height: 31px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: 0 none;
+    border: 0 none;
+    -webkit-appearance: none;
+    float: right;
+    font-size: 14px;
+    color: #ababab;
+}
+/*¶¥²¿ÑùÊ½½áÊø*/
+.one{
+    width: 960px;
+    height: 44px;
+
+
+
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -1px;
+}
+.two{
+    width: 960px;
+    height: 436px;
+
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    background: #fff;
+    padding: 34px 34px 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    min-height: 400px;
+}
+.c_b{
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    zoom: 1;
+    width: 73%;
+    overflow: hidden;
+}
+.c_b li{
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 20%;
+    height: 44px;
+    overflow: hidden;
+}
+.c_b li a{
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: 0 none;
+    border: 0 none;
+    -webkit-appearance: none;
+    display: block;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.one_1{
+    width: 222px;
+    height: 92px;
+
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    overflow: hidden;
+    position: absolute;
+    right: 350px;
+    top: 164px;
+    margin-top: -90px;
+}
+.one_1 img{
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    float: right;
+    margin-top: 0px;
+    margin-right: 45px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #e3e3e3;
+    border-radius: 50%;
+    padding: 4px;
+    background: #fff;
+    position: relative;
+    z-index: 9999;
+    cursor: default;
+}
+.one_1 p{
+    width: 80px;
+    height: 21px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    text-align: left;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.pp p{
+    padding: 3px 0;
+    color: #ff6700;
+    font-size: 15px;
+}
+.pp{
+    width: 80px;
+    height: 40px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.two_1{
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    zoom: 1;
+    font-size: 14px;
+}
+.pL{
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    font-size: 14px;
+    float: left;
+    width: 300px;
+}
+.pR{
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    font-size: 14px;
+    float: left;
+    width: 590px;
+    margin-left: 30px;
+}
+.naInfoImgBox{
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    padding: 80px 20px 0;
+}
+.na-img-area{
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #e3e3e3;
+    border-radius: 50%;
+    padding: 4px;
+    background: #fff;
+    position: relative;
+    z-index: 4;
+    cursor: default;
+}
+.na-img-bg-area{
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    background: url(../imag/n-avator-bg.png) 0 0 no-repeat !important;
+}
+.naImgLink{
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+}
+.naImgLink a{
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 100px;
+    padding: 0;
+    text-decoration: none;
+    outline: 0 none;
+    border: 0 none;
+    -webkit-appearance: none;
+    color: #4a90e3;
+
+}
+.n-nav-corner{
+    font-size: 14px;
+    color: #666;
+    list-style: none;
+    text-align: center;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","Î¢Ü›ÕýºÚów","ƒ«ºÚ Pro", sans-serif;
+    font-style: normal;
+    width: 23px;
+    height: 12px;
+    margin-right: -140px;
+    margin-top: 32px;
+    margin-bottom: -2px;
+    background: url(../imag/n-layout-corner.png) 0 0 no-repeat;
+    display: inline-block;
+    z-index: 99999;
+}
+#col{
+    color: #ff6700;
+    font-size: 16px;
+}
+.top_1{
+    margin-right: 325px;
+    float: right;
+    margin-top: 50px;
+
+}
+h3{
+    font-size: 16px;
+    color: #333333;
+}
+.top_1 p{
+    padding: 10px 0;
+    font-size: 16px;
+}
+.bottm_1 p{
+    padding: 10px 0;
+    font-size: 16px;
+}
+.bottm_1{
+    margin-right: 310px;
+    float: right;
+    margin-top: 50px;
+}
+input{
+    width: 200px;
+    height: 25px;
+}
+.InputContent{
+    float: right;
+    /*border-right:0.8px solid #e0e0e0 ;*/
+    outline: none;
+}
+button{
+    width: 50px;
+    height: 25px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 0px;
+}
+button:hover{
+    color: #ff6700;
+}
+
+/*µ×²¿ÑùÊ½*/
+
+.bottm {
+    width: 100%;
+    height: 180px;
+    /*background-color: #33ffff;*/
+}
+/*margin-top: 50px;*/
+.kb{
+    width: 100%;
+    height: 80px;
+    /*background-color: #ee96d8;*/
+
+}
+
+.bottm  ul{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.bottm  ul a{
+    margin-top: 50px;
+}
+.bottm p{
+    text-align: center;
+}
+.bottm p img{
+    width: 20px;
+    height: 20px;
+}
+
+.dl{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    background-color: white;
+    margin-right: 160px;
+
+}
+.login {
+    width: 400px;
+    height: 500px;
+    /*box-shadow: 0 0 15px 3px rgba(51, 51, 51, 0.53);*/
+    margin: 20px auto -440px auto ;
+    /* border: 1px solid aqua; */
+    text-align: center;
+    /*flex-wrap:nowrap ;*/
+    margin-top: -505px;
+
+}
+
+#login-text,
+#login-pwd {
+    width: 350px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: auto;
+
+}
+
+#login-sub {
+    width: 364px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: auto;
+
+
+}
+
+/* ----------ÑùÊ½Éè¼Æ---------- */
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.choose {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.left {
+    color: #f56600;
+    margin-right: 15px;
+}
+
+.right {
+    margin-left: 15px;
+}
+
+#login-text,
+#login-pwd {
+    padding: 8px 5px;
+    font-size: 16px;
+    /* box-sizing: border-box; */
+    outline: none;;
+}
+
+#login-text {
+    margin-top: 35px;
+}
+
+#login-pwd {
+    margin-top: 15px;
+}
+
+#login-sub {
+    height: 50px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #f56600;
+    color: white;
+}
+
+.forget {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #e0e0e0;
+    margin-left: 115px;
+}
+
+.forget a {
+    color: #999;
+    text-align:center;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+fieldset {
+    display: inline-block;
+    width: 400px;
+    margin-top: 80px;
+    color: #999;
+    border: none;
+    border-top: 1px solid #999
+}
+
+/* ------------icon---------- */
+
+.icon {
+    margin: 30px 70px;
+
+}
+
+.qq,.weibo,.pay,.wechat {
+    width: 21px;
+    height: 18px;
+    display: inline-block;
+    margin: 0 20px;
+    border-radius: 50%;
+    background: gray url("../imag/denglu/icons_type.png" );
+    z-index: 999;
+}
+
+.qq {
+    background-position-x: -19px;
+    background-color: #0288d1;
+}
+
+.weibo {
+    background-position-x: -38px;
+    background-color: #d32f2f;
+}
+
+.pay {
+    background-position-x: -59px;
+    background-color: #00aaee;
+}
+
+.wechat {
+    background-position-x: -87px;
+    background-color: #00d20d;
+}
+
+.qq:hover,
+.weibo:hover,
+.pay:hover,
+.wechat:hover{
+    background-color: black;
+}

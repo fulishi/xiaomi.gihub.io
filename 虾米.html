@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/a1.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="imag/favicon.ico">
+    <link rel="stylesheet" href="虾米样式.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome-4.7.0%20(1)/font-awesome-4.7.0/css/font-awesome.css" type="text/css">
+</head>
+<body>
+    <!--顶部开始     -->
+    <div class="topnav">
+        <!--居中模块-->
+        <div class="boxcenter">
+            <!--左边导航栏 开始-->
+            <nav class="navleft">
+                <a href="javascript:void(0)">小米商城</a>
+                <span>|</span>
+                <a href="javascript:void(0)">MIUI</a>
+                <span>|</span>
+                <a href="javascript:void(0)">IOT</a>
+                <span>|</span>
+                <a href="javascript:void(0)">云服务</a>
+                <span>|</span>
+                <a href="javascript:void(0)">金融</a>
+                <span>|</span>
+                <a href="javascript:void(0)">有品</a>
+                <span>|</span>
+                <a href="javascript:void(0)">小爱开放平台</a>
+                <span>|</span>
+                <a href="javascript:void(0)">企业团队</a>
+                <span>|</span>
+                <a href="javascript:void(0)">资质证明</a>
+                <span>|</span>
+                <a href="javascript:void(0)">协议规则</a>
+                <span>|</span>
+                <a href="javascript:void(0)">下载app</a>
+                <span>|</span>
+                <a href="javascript:void(0)">Select Location</a>
+                <span>|</span>
+
+            </nav>
+            <!--左边导航栏 结束-->
+            <!--右边导航栏 开始-->
+            <nav class="navright">
+                <a href="登录页面.html">登录</a>
+                <span>|</span>
+                <a href="javascript:void(0)">注册</a>
+                <span>|</span>
+                <a href="javascript:void(0)">消息通知</a>
+                <span>|</span>
+                <a href="javascript:void(0)" class="shopclass">购物车(+99)</a>
+            </nav>
+            <!--右边导航栏 结束-->
+        </div>
+        <!--居中模块结束-->
+    </div>
+    <!--顶部导航栏结束-->
+
+    <!--搜索部分  开始-->
+    <div class="Search">
+        <!--居中模块-->
+        <div class="boxcenter">
+            <div class="logo"></div>
+            <div class="hostSearch">
+                <nav>
+                    <a href="javascript:void(0)">小米手机</a>
+                    <a href="javascript:void(0)">Redmi</a>
+                    <a href="javascript:void(0)">电视</a>
+                    <a href="javascript:void(0)">笔记本</a>
+                    <a href="javascript:void(0)">家电</a>
+                    <a href="javascript:void(0)">路由器</a>
+                    <a href="javascript:void(0)">智能硬件</a>
+                    <a href="javascript:void(0)">服务</a>
+                    <a href="javascript:void(0)">社区</a>
+                </nav>
+
+            </div>
+            <div class="SearchBox">
+                <form action=" ">
+                <input type="text" class="InputContent">
+                <button type="submit" class="btn fa fa-search"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--搜索部分结束-->
+
+    <!--商品分类 开始-->
+    <div class="shopClass">
+        <!--居中模块 开始-->
+        <div class="boxcenter Pr">
+            <!--轮播广告图 开始-->
+            <div class="RunImg">
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="imag/bg1.jpg" alt="...">
+                            <!--<div class="carousel-caption">-->
+                                <!--...-->
+                            <!--</div>-->
+                        </div>
+                        <div class="item">
+                            <img src="imag/bg2.jpg" alt="...">
+                            <!--<div class="carousel-caption">-->
+                                <!--...-->
+                            <!--</div>-->
+                        </div>
+                        <div class="item">
+                            <img src="imag/bg2.jpg" alt="...">
+                            <!--<div class="carousel-caption">-->
+                            <!--...-->
+                            <!--</div>-->
+                        </div>
+                        <div class="item">
+                            <img src="imag/bg3.jpg" alt="...">
+                            <!--<div class="carousel-caption">-->
+                            <!--...-->
+                            <!--</div>-->
+                        </div>
+                        <div class="item">
+                            <img src="imag/bg5.jpg" alt="...">
+                            <!--<div class="carousel-caption">-->
+                            <!--...-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!--手机更多商品  开始-->
+                <div class="allBox" id="ph" onmousemove="showDIV()" onmouseout="hideDIV()"></div>
+                <!--手机更多商品  结束-->
+                <!--手机更多商品  开始-->
+                <div class="allBox c1"  id="tv" onmousemove="showD('tv')" onmouseout="hideD('tv')"></div>
+                <!--手机更多商品  结束-->
+                <!--手机更多商品  开始-->
+                <div class="allBox c2" id="Note" onmousemove="showD('Note')" onmouseout="hideD('Note')"></div>
+                <!--手机更多商品  结束-->
+                <!--手机更多商品  开始-->
+                <div class="allBox c3" id="a1" onmousemove="showD('a1')" onmouseout="hideD('a1')"></div>
+                <!--手机更多商品  结束-->
+                <!--手机更多商品  开始-->
+                <div class="allBox c4" id="a2" onmousemove="showD('a2')" onmouseout="hideD('a2')"></div>
+                <!--手机更多商品  结束-->
+                <!--手机更多商品  开始-->
+                <div class="allBox c5" id="a3" onmousemove="showD('a3')" onmouseout="hideD('a3')"></div>
+                <!--手机更多商品  结束-->
+                <!--手机更多商品  开始-->
+                <div class="allBox c6" id="a4" onmousemove="showD('a4')" onmouseout="hideD('a4')"></div>
+                <!--手机更多商品  结束-->
+                <!--手机更多商品  开始-->
+                <div class="allBox c7" id="a5" onmousemove="showD('a5')" onmouseout="hideDIV('a5')"></div>
+                <!--手机更多商品  结束-->
+
+            </div>
+            <!--轮播广告图 结束-->
+            <!--分类信息 开始-->
+            <div class="ClassInfo">
+                <ul>
+                    <li onmousemove="showDIV()" onmouseout="hideDIV()">
+                        <a href="javascript:void(0)">手机 电话卡</a>
+                        <span class="fa fa-angle-right"></span>
+                    </li>
+                    <li  onmousemove="showD('tv')" onmouseout="hideD('tv')">
+                        <a href="javascript:void(0)">电视 盒子</a>
+                        <span class="fa fa-angle-right"></span>
+                    </li>
+                    <li  onmousemove="showD('Note')" onmouseout="hideD('Note')">
+                        <a href="javascript:void(0)">笔记本 显示器 平板</a>
+                        <span class="fa fa-angle-right"></span>
+                    </li>
+                    <li onmousemove="showD('a1')" onmouseout="hideD('a1')">
+                        <a href="javascript:void(0)">加点 插线板</a>
+                        <span class="fa fa-angle-right"></span>
+                    </li>
+                    <li onmousemove="showD('a2')" onmouseout="hideD('a2')">
+                        <a href="javascript:void(0)">出行 穿戴</a>
+                        <span class="fa fa-angle-right"></span>
+                    </li>
+                    <li onmousemove="showD('a3')" onmouseout="hideD('a3')">
+                        <a href="javascript:void(0)">智能 路由器</a>
+                        <span class="fa fa-angle-right"></span>
+                    </li>
+                    <li onmousemove="showD('a4')" onmouseout="hideD('a4')">
+                        <a href="javascript:void(0)">电源 配件</a>
+                        <span class="fa fa-angle-right"></span>
+                    </li>
+                    <li onmousemove="showD('a5')" onmouseout="hideD('a5')">
+                        <a href="javascript:void(0)">健康 儿童</a>
+                        <span class="fa fa-angle-right"></span>
+                    </li>
+                    <li onmousemove="showD('a2')" onmouseout="hideD('a2')">
+                        <a href="javascript:void(0)">耳机 音箱</a>
+                        <span class="fa fa-angle-right"></span>
+                    </li>
+                    <li onmousemove="showD('a1')" onmouseout="hideD('a1')">
+                        <a href="javascript:void(0)">生活 箱包</a>
+                        <span class="fa fa-angle-right"></span>
+                    </li>
+                </ul>
+            </div>
+            <!--分类信息 结束-->
+        </div>
+        <!--居中模块 结束-->
+    </div>
+    <!--商品分类 结束-->
+
+    <!--手机商品板块  开始-->
+    <div class="phone">
+        <div class="boxcenter">
+            <!--左边广告图  开始-->
+            <div class="LeftImg"></div>
+            <!--左边广告图  结束-->
+        </div>
+        <!--右部商品 开始-->
+        <div class="RightGoods">
+            <!--上部 开始-->
+            <div class="PGoods">
+                <!--商品 开始-->
+                <dl>
+                    <dt>
+                        <img src="imag/m1.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <span class="PName">手机名称</span>
+                        <span class="PPZ">骁龙857/牛批plus</span>
+                        <span class="PPrice">￥3999</span>
+                    </dd>
+                </dl>
+                <!--商品 结束-->
+                <!--商品 开始-->
+                <dl>
+                    <dt>
+                        <img src="imag/m2.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <span class="PName">手机名称</span>
+                        <span class="PPZ">骁龙857/牛批plus</span>
+                        <span class="PPrice">￥3999</span>
+                    </dd>
+                </dl>
+                <!--商品 结束-->
+                <!--商品 开始-->
+                <dl>
+                    <dt>
+                        <img src="imag/m3.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <span class="PName">手机名称</span>
+                        <span class="PPZ">骁龙857/牛批plus</span>
+                        <span class="PPrice">￥3999</span>
+                    </dd>
+                </dl>
+                <!--商品 结束-->
+                <!--商品 开始-->
+                <dl>
+                    <dt>
+                        <img src="imag/m4.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <span class="PName">手机名称</span>
+                        <span class="PPZ">骁龙857/牛批plus</span>
+                        <span class="PPrice">￥3999</span>
+                    </dd>
+                </dl>
+                <!--商品 结束-->
+            </div>
+            <!--上部 结束-->
+            <!--下部 开始-->
+            <div class="PGoods BPG">
+                <!--商品 开始-->
+                <dl>
+                    <dt>
+                        <img src="imag/m5.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <span class="PName">手机名称</span>
+                        <span class="PPZ">骁龙857/牛批plus</span>
+                        <span class="PPrice">￥3999</span>
+                    </dd>
+                </dl>
+                <!--商品 结束-->
+                <!--商品 开始-->
+                <dl>
+                    <dt>
+                        <img src="imag/m6.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <span class="PName">手机名称</span>
+                        <span class="PPZ">骁龙857/牛批plus</span>
+                        <span class="PPrice">￥3999</span>
+                    </dd>
+                </dl>
+                <!--商品 结束-->
+                <!--商品 开始-->
+                <dl>
+                    <dt>
+                        <img src="imag/m7.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <span class="PName">手机名称</span>
+                        <span class="PPZ">骁龙857/牛批plus</span>
+                        <span class="PPrice">￥3999</span>
+                    </dd>
+                </dl>
+                <!--商品 结束-->
+                <!--商品 开始-->
+                <dl>
+                    <dt>
+                        <img src="imag/m8.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <span class="PName">手机名称</span>
+                        <span class="PPZ">骁龙857/牛批plus</span>
+                        <span class="PPrice">￥3999</span>
+                    </dd>
+                </dl>
+                <!--商品 结束-->
+            </div>
+            <!--下部 结束-->
+        </div>
+        <!--右部商品 结束-->
+    </div>
+    <!--手机商品板块  结束-->
+
+    <!--智能板块  开始-->
+    <div class="zhineng">
+        <div class="boxcenter">
+            <div class="shangpin">
+                <div class="top1">
+                    <div class="tupian">
+                        <img src="imag/mi1.png">
+                    </div>
+
+                    <dl>
+                        <dt>
+                            <img src="imag/m2.1.jpg" alt="">
+                        </dt>
+                        <dd>
+                            <span class="PName">手机名称</span>
+                            <span class="PPZ">骁龙857/牛批plus</span>
+                            <span class="PPrice">￥3999</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <img src="imag/m2.2.jpg" alt="">
+                        </dt>
+                        <dd>
+                            <span class="PName">手机名称</span>
+                            <span class="PPZ">骁龙857/牛批plus</span>
+                            <span class="PPrice">￥3999</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <img src="imag/m2.3.jpg" alt="">
+                        </dt>
+                        <dd>
+                            <span class="PName">手机名称</span>
+                            <span class="PPZ">骁龙857/牛批plus</span>
+                            <span class="PPrice">￥3999</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <img src="imag/m2.4.jpg" alt="">
+                        </dt>
+                        <dd>
+                            <span class="PName">手机名称</span>
+                            <span class="PPZ">骁龙857/牛批plus</span>
+                            <span class="PPrice">￥3999</span>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="top1">
+                    <div class="tupian">
+                        <img src="imag/mi2.png">
+                    </div>
+
+                    <dl>
+                        <dt>
+                            <img src="imag/m2.5.jpg" alt="">
+                        </dt>
+                        <dd>
+                            <span class="PName">手机名称</span>
+                            <span class="PPZ">骁龙857/牛批plus</span>
+                            <span class="PPrice">￥3999</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <img src="imag/m2.6.jpg" alt="">
+                        </dt>
+                        <dd>
+                            <span class="PName">手机名称</span>
+                            <span class="PPZ">骁龙857/牛批plus</span>
+                            <span class="PPrice">￥3999</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <img src="imag/m2.7.jpg" alt="">
+                        </dt>
+                        <dd>
+                            <span class="PName">手机名称</span>
+                            <span class="PPZ">骁龙857/牛批plus</span>
+                            <span class="PPrice">￥3999</span>
+                        </dd>
+                    </dl>
+                    <div class="dls">
+                        <h3>九号平衡车</h3>
+                        <p>3399元</p>
+                        <div class="tu">
+                            <img src="imag/chejpg.jpg">
+                        </div>
+                    </div>
+                    <div class="dls">
+                        <h3>浏览更多</h3>
+                        <h5>热门</h5>
+                        <p class="jt fa fa-arrow-circle-o-right"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--智能板块  结束-->
+    <!--底部共用模块开始-->
+    <div class="footer">
+        <div class="canteredd">
+            <div class="one">
+                <li id="ll"><a href="#"><p class="fa fa-wrench"></p>预约维修服务</a></li>
+                <li><a href="#"><p class="fa fa-rotate-left"></p>7天无理由退货</a></li>
+                <li><a href="#"><p class="fa fa-rotate-right"></p>15天免费换货</a></li>
+                <li><a href="#"><p class="fa fa-gift"></p>满99元包邮</a></li>
+                <li><a href="#"><p class="fa fa-map-marker"></p>520余家售后网点</a></li>
+            </div>
+            <div class="two">
+                <dl>
+                    <dt><a>帮助中心</a></dt>
+                    <dd><a href="#">账户管理</a></dd>
+                    <dd><a href="#">购物指南</a></dd>
+                    <dd><a href="#">订单操作</a></dd>
+                </dl>
+                <dl>
+                    <dt><a>服务支持
+
+
+                    </a></dt>
+                    <dd><a  href="#">售后政策</a></dd>
+                    <dd><a  href="#">自助服务</a></dd>
+                    <dd><a  href="#">相关下载</a></dd>
+                </dl>
+                <dl>
+                    <dt><a>线下门店
+
+
+                    </a></dt>
+                    <dd><a  href="#">小米之家</a></dd>
+                    <dd><a  href="#">服务网点</a></dd>
+                    <dd><a  href="#">授权体验店</a></dd>
+                </dl>
+                <dl>
+                    <dt><a>关于小米
+
+
+
+                    </a></dt>
+                    <dd><a  href="#">了解小米</a></dd>
+                    <dd><a  href="#">加入小米</a></dd>
+                    <dd><a  href="#">投资者关系</a></dd>
+                    <dd><a  href="#">廉洁举报</a></dd>
+                </dl>
+                <dl>
+                    <dt><a>关注我们
+
+
+                    </a></dt>
+                    <dd><a  href="#">新浪微博</a></dd>
+                    <dd><a  href="#">官方微信</a></dd>
+                    <dd><a  href="#">联系我们</a></dd>
+                </dl>
+                <dl>
+                    <dt><a>特色服务
+
+
+                    </a></dt>
+                    <dd><a  href="#">F 码通道</a></dd>
+                    <dd><a  href="#">礼物码</a></dd>
+                    <dd><a  href="#">防伪 查询</a></dd>
+                </dl>
+
+                <div class="Right">
+                    <p id="ph">400-100-5678</p>
+                    <p>8:00-18:00（仅收市话费）</p>
+                    <a  href="#">人工客服</a>
+                    <div class="follw">
+                        <p>关注小米：</p>
+                        <div class="ttt">
+                            <div class="b1"   onmousemove="showD('a11')" onmouseout="hideD('a22')">
+                                <img  src="imag/wb@2x.png" id="a11" >
+                                <img src="imag/wb.png" id="a22">
+                            </div>
+                            <div class="b11" >
+                                <img src="imag/wx.png" id="b111" onmousemove="showD('b222')" onmouseout="hideD('b111')">
+                                <img src="imag/wx@2x.png" id="b222" onmouseout="hideD('b111')"onmousemove="showD('b222')">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottm">
+        <div class="cantereddd">
+            <div class="logo"><img src="imag/zhuce/mi.png"></div>
+            <p>
+                <a href="#">小米商城</a>
+                <span>|</span>
+                <a href="#">MIUI</a>
+                <span>|</span>
+                <a href="#">米家</a>
+                <span>|</span>
+                <a href="#">米聊</a>
+                <span>|</span>
+                <a href="#">多看</a>
+                <span></span>
+                <a href="#">游戏</a>
+                <span>|</span>
+                <a href="#">路由器</a>
+                <span>|</span>
+                <a href="#">米粉卡</a>
+                <span>|</span>
+                <a href="#">政企服务</a>
+                <span>|</span>
+                <a href="#">小米天猫店</a>
+                <span>|</span>
+                <a href="#">小米集团隐私政策</a>
+                <span>|</span>
+                <a href="#">小米商城隐私政策</a>
+                <span>|</span>
+                <a href="#">小米商城用户协议</a>
+                <span>|</span>
+                <a href="#">问题反馈</a>
+            </p>
+            <p id="db">© mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2020]0276-042号</br>
+                （京）网械平台备字（2018）第00005号 互联网药品信息服务资格证 (京) -非经营性-2014-0090 营业执照 医疗器械公告</br>
+                增值电信业务许可证  网络食品经营备案（京）【2018】WLSPJYBAHF-12   食品经营许可证</br>
+                违法和不良信息举报电话：171-5104-4404 知识产权侵权投诉 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+            <div class="gg">
+                <img src="imag/truste.png" id="tup"><img src="imag/v-logo-2.png"><img src="imag/v-logo-1.png"><img src="imag/v-logo-3.png"><img src="imag/ba10428a4f9495ac310fd0b5e0cf8370.png">
+            </div>
+
+            <div class="tx"><img src="imag/slogan2020.png"></div>
+        </div>
+    </div>
+    <!--底部共用模块  结束-->
+
+    <div style="width: 100%;height: 300px"></div>
+
+</body>
+</html>
